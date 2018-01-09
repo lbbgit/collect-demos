@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://www.yyyweb.com/demo/tearable-cloth/index.html -->
+<html class="cye-disabled cye-nm"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML5 Canvas </title>
+    <link rel="stylesheet" type="text/css" href="./files/style.css">
+    <link rel="stylesheet" href="./files/init.css">
+    <style>
+    .top-banner {
+        background-color: #666;
+    }
+    a {
+        font-size: 13px;
+    }
+    #info {
+        position: absolute;
+        left: -1px;
+        top: 30px;
+    }
+    #c {
+        display: block;
+        margin: 60px auto 0;
+    }
+    </style>
+<style id="nightModeStyle">
+html.cye-enabled.cye-nm:not(*:-webkit-full-screen) body,
+ html.cye-enabled.cye-nm:not(*:-webkit-full-screen) #cye-workaround-body {-webkit-filter:contrast(91%) brightness(84%) invert(1);}</style><style id="cyebody">html.cye-enabled.cye-lm body{background-color:#c0dcc3 !important;border-color:rgb(48, 55, 48) !important;background-image:none !important;color:#000000  !important}</style><style id="cyediv">html.cye-enabled.cye-lm div{background-color:#c0dcc3 !important;border-color:rgb(48, 55, 48) !important;background-image:none !important;color:#000000  !important}</style><style id="cyetable">html.cye-enabled.cye-lm th{background-color:#c0dcc3 !important;border-color:rgb(48, 55, 48) !important;background-image:none !important;color:#000000  !important}html.cye-enabled.cye-lm td{background-color:#c0dcc3 !important;border-color:rgb(48, 55, 48) !important;background-image:none !important;color:#000000  !important}</style><style id="cyetextInput">html.cye-enabled.cye-lm input[type=text]{background-color:#c0dcc3 !important;border-color:rgb(48, 55, 48) !important;background-image:none !important;color:#000000  !important}html.cye-enabled.cye-lm textarea{background-color:#c0dcc3 !important;border-color:rgb(48, 55, 48) !important;background-image:none !important;color:#000000  !important}</style><style id="cyeselect">html.cye-enabled.cye-lm select{background-color:#c0dcc3 !important;border-color:rgb(48, 55, 48) !important;background-image:none !important;color:#000000  !important}</style><style id="cyeul">html.cye-enabled.cye-lm ul{background-color:#c0dcc3 !important;border-color:rgb(48, 55, 48) !important;background-image:none !important;color:#000000  !important}</style><style id="cyeChangeByClick">html.cye-enabled.cye-lm .cye-lm-tag,html.cye-enabled.cye-lm.cye-lm-tag{background-color:#c0dcc3 !important;border-color:rgb(48, 55, 48) !important;background-image:none !important;color:#000000  !important}</style> 
+ 
+ </head>
+
+<body style="">
+    <canvas id="c" width="560" height="350"></canvas>
+    <div id="info">
+        <p>
+            <br>- 使用鼠标可以拉扯
+            <br>
+            <br>- 右键可以切断布料
+            <br>
+            <br>
+        </p>
+    </div>
+    <script type="text/javascript">
+        document.getElementById('close').onmousedown = function(e) {
+            e.preventDefault();
+            document.getElementById('info').style.display = 'none';
+            return false;
+        };
+    </script>
+    <script type="text/javascript" src="./files/Cloth.js"></script>
+    <div class="footer-banner" style="width:728px; margin:30px auto"><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-0608155192548477" data-ad-slot="8305246055"></ins></div>
+    <script src="./files/jquery.min.js"></script>
+    <script src="./files/init.js"></script>    
+
+ 
+</body><div id="cyeBlackMaskLayer" style="background-color: rgb(19, 19, 19); position: fixed; width: 1980px; height: 1080px; z-index: -2147483648;"></div><div id="cye-workaround-body" style="position: absolute; left: 0px; top: 0px; z-index: -2147483646; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(242, 242, 242); height: 494px; width: 383px;"></div><div id="cye-workaround-body-image" style="position: absolute; left: 0px; top: 0px; z-index: -2147483645; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); height: 494px; width: 383px;"></div></html>
