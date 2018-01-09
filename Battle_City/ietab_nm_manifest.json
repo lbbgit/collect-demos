@@ -1,0 +1,7 @@
+{
+	"name": "net.ietab.ietabhelper.peruser",
+	"description": "IE Tab Helper",
+	"path": "C:\\Users\\Administrator\\AppData\\Local\\IE Tab\\10.6.21.1\\ietabhelper.exe",
+	"type": "stdio",
+	"allowed_origins": [ "chrome-extension://bjndombghfcohmonofdcfnhjldidnmhd/", "chrome-extension://knnoopddfdgdabjanjmeodpkmlhapkkl/", "chrome-extension://hehijbfgiekmjfkfjpbkbammjbdenadd/" ]
+}
